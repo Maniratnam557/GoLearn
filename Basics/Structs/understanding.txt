@@ -1,0 +1,26 @@
+array slice maps all to be specific data type 
+
+struct is fixed collection but with multiple data types (we canot add fields dynamically )
+
+var s struct {
+    name string
+    id    int
+}
+
+struct is value type 
+
+s.name = "Maniratnam"
+fmt.Println(s.name)
+
+we can Create custom type 
+
+type mystruct struct {
+    name string 
+    id int
+}
+
+
+var student mystruct 
+
+student = {name: "arthur" ,id : 43}
+

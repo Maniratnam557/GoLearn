@@ -1,0 +1,13 @@
+maps are key value pairs / order is not guaranteed / are copied by reference
+
+var m map[string]int 
+fmt.Println(m)
+m := map[string]int{"foo": 1, "bar": 2}
+
+fmt.Println(m["foo"])
+
+delete(m,"foo")
+
+v,ok := m["foo"]
+
+fmt.Println(v,ok)  0,false

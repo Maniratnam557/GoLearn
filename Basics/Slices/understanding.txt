@@ -1,0 +1,22 @@
+A slice is a subset of an array 
+
+slice are reference to data store somewhere else 
+
+slice is dynamic data type
+
+var s []int // exactly same as arry but doest have size
+
+fmt.Println(s) [] nil 
+
+s = []int{1,2,3}
+
+s = append(s,10,15,20) 
+
+s = slices.Delete(s,1,3) // remove indices 1,2 from slice
+
+
+s = []int{1,2,3}
+s1:= s S1 is copy of reference
+
+s == s1 gives compile time error 
+

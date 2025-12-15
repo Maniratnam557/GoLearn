@@ -1,0 +1,16 @@
+var arr [3]int // array of 3 int
+
+fmt.Println(arr) [0,0,0] zero value 
+
+arr = [3]int{1,2,3}
+
+fmt.Println(arr[1])  2 
+
+len(arr)
+
+arrstr := [3]string{"hero","honda","suzuki"}
+
+arr2 := arrstr  //arrays are copied by value 
+
+arr2 == arrstr
+
