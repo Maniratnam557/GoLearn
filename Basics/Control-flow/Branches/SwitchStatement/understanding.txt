@@ -1,0 +1,8 @@
+switch test expression {
+ case expression1:
+      statements
+ case expression2,expression3:
+     statements
+ defaut:
+   statements
+}
