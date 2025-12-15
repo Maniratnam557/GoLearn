@@ -1,0 +1,19 @@
+a:= 42 
+
+b:= a 
+
+what this gonna do its going to copy the value in a to b 
+Note: These are values and they are copied a and b independent of each other 
+
+if i change a= 27 then b doesnt effect 
+
+Pointers:
+
+b:= &a (holding the location in memory that a is pointing to)
+
+b is set to point a 
+
+*b this will give you 42 (derefrencing the pointer)
+
+
+
