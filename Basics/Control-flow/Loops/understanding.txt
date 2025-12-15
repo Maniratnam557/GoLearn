@@ -1,0 +1,14 @@
+In GO all loops are for loops
+
+infinite loop
+
+for { ...}
+
+condition loop
+
+for condition {... }
+
+counter based loop
+
+for intializer ; test ; post clause {......}
+
