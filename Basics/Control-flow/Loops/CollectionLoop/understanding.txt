@@ -1,0 +1,9 @@
+for key,value := range collection { ...}
+for key := range collection {..}
+for _,value := range collection {..}
+
+
+arr := []int{12,35,67}
+for i,v := range arr {
+    fmt.Println(i,v)
+}
