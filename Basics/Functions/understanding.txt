@@ -1,0 +1,37 @@
+Function Signature :
+
+func keyword all functions starts with this 
+
+func functionname (parameters) (return values) {
+
+    function body
+
+}
+
+Understanding Parameters and Arguments:
+
+func greet(name string) {
+    fmt.Prinln(name)
+}
+
+func greet(name string,score int){
+
+}
+
+func greet(name1,name2 string) {
+
+}
+
+Variadic Parameter:
+
+func greet(names ...string){
+    for _,v := range names{
+
+    }
+}
+
+recieve as a slice 
+Must be a final parameter
+
+
+
